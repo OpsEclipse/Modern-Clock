@@ -15,6 +15,14 @@ function draw() {
   background(0);  
   Engine.update(engine);
 
+  fill("white");
+  textSize(30)
+  textFont("fantasy")
+  text("6", 200,385);
+  text("3", 370,200);
+  text("12", 180,40);
+  text("9", 20,200);
+
   translate(200,200)
   rotate (-90);
 
@@ -60,9 +68,7 @@ function draw() {
   line(0,0,60,0);
   pop();
   
-  fill("white");
-  textSize(50)
-  text("9", 200,390);
+  
   //text(hr+":"+":"+mn+":"+sc,200,200);
 
   drawSprites();
