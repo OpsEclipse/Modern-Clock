@@ -1,10 +1,5 @@
-const Engine = Matter.Engine;
-const World = Matter.World;
-const Bodies = Matter.Bodies;
 
 function setup() {
-  engine = Engine.create();
-  world = engine.world;
   createCanvas(400,400);
 
   angleMode(DEGREES);
@@ -13,7 +8,7 @@ function setup() {
 
 function draw() {
   background(0);  
-  Engine.update(engine);
+  
 
   fill("white");
   textSize(30)
